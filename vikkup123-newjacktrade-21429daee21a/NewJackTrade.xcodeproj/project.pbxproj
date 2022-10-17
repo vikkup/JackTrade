@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C07FD7D25F7178500762688 /* NewJackTradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FD7C25F7178500762688 /* NewJackTradeApp.swift */; };
+		6C07FD8125F7178700762688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C07FD8025F7178700762688 /* Assets.xcassets */; };
+		6C07FD8425F7178700762688 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C07FD8325F7178700762688 /* Preview Assets.xcassets */; };
+		6C07FD9425F7192A00762688 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FD8F25F7192A00762688 /* ProfileView.swift */; };
+		6C07FD9525F7192A00762688 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FD9025F7192A00762688 /* SearchView.swift */; };
+		6C07FD9625F7192A00762688 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FD9125F7192A00762688 /* DashboardView.swift */; };
+		6C07FD9725F7192A00762688 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FD9225F7192A00762688 /* LoginView.swift */; };
+		6C07FD9825F7192A00762688 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FD9325F7192A00762688 /* MessagesView.swift */; };
+		6C07FDA125F71BB500762688 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C07FDA025F71BB500762688 /* GoogleService-Info.plist */; };
+		6C07FDA525F71CD200762688 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6C07FDA425F71CD200762688 /* FirebaseAnalytics */; };
+		6C07FDA725F71CD200762688 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6C07FDA625F71CD200762688 /* FirebaseAuth */; };
+		6C07FDA925F71CD200762688 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6C07FDA825F71CD200762688 /* FirebaseFirestore */; };
+		6C07FDAB25F71CD200762688 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6C07FDAA25F71CD200762688 /* FirebaseDatabase */; };
+		6CBCBB1F262B37E200608659 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCBB1E262B37E200608659 /* Profile.swift */; };
+		6CBCBB22262B381800608659 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCBB21262B381800608659 /* ProfileViewModel.swift */; };
+		6CD09A7C25FECACC003464E1 /* JobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD09A7B25FECACC003464E1 /* JobListView.swift */; };
+		6CD09A8026001F23003464E1 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD09A7F26001F23003464E1 /* Listing.swift */; };
+		6CD09A832600213D003464E1 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD09A822600213D003464E1 /* SearchViewModel.swift */; };
+		6CE0408226322EE8002C4EE3 /* JobListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0408126322EE8002C4EE3 /* JobListingViewModel.swift */; };
+		6CE0408526346A38002C4EE3 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0408426346A38002C4EE3 /* ListingView.swift */; };
+		6CE0408D264235E7002C4EE3 /* ListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0408C264235E7002C4EE3 /* ListingViewModel.swift */; };
+		BD2AA0F12600575600E8387E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AA0F02600575600E8387E /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C07FD7925F7178500762688 /* NewJackTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewJackTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C07FD7C25F7178500762688 /* NewJackTradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJackTradeApp.swift; sourceTree = "<group>"; };
+		6C07FD8025F7178700762688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C07FD8325F7178700762688 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C07FD8525F7178700762688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C07FD8F25F7192A00762688 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6C07FD9025F7192A00762688 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		6C07FD9125F7192A00762688 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		6C07FD9225F7192A00762688 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6C07FD9325F7192A00762688 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		6C07FDA025F71BB500762688 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CBCBB1E262B37E200608659 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		6CBCBB21262B381800608659 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		6CD09A7B25FECACC003464E1 /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
+		6CD09A7F26001F23003464E1 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		6CD09A822600213D003464E1 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		6CE0408126322EE8002C4EE3 /* JobListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewModel.swift; sourceTree = "<group>"; };
+		6CE0408426346A38002C4EE3 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
+		6CE0408C264235E7002C4EE3 /* ListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewModel.swift; sourceTree = "<group>"; };
+		BD2AA0F02600575600E8387E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C07FD7625F7178500762688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C07FDA525F71CD200762688 /* FirebaseAnalytics in Frameworks */,
+				6C07FDA725F71CD200762688 /* FirebaseAuth in Frameworks */,
+				6C07FDAB25F71CD200762688 /* FirebaseDatabase in Frameworks */,
+				6C07FDA925F71CD200762688 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C07FD7025F7178500762688 = {
+			isa = PBXGroup;
+			children = (
+				6C07FD7B25F7178500762688 /* NewJackTrade */,
+				6C07FD7A25F7178500762688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C07FD7A25F7178500762688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C07FD7925F7178500762688 /* NewJackTrade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C07FD7B25F7178500762688 /* NewJackTrade */ = {
+			isa = PBXGroup;
+			children = (
+				BD2AA0F02600575600E8387E /* MapView.swift */,
+				6C07FD7C25F7178500762688 /* NewJackTradeApp.swift */,
+				6C07FD9125F7192A00762688 /* DashboardView.swift */,
+				6C07FD9225F7192A00762688 /* LoginView.swift */,
+				6C07FD9325F7192A00762688 /* MessagesView.swift */,
+				6C07FD8F25F7192A00762688 /* ProfileView.swift */,
+				6CBCBB1E262B37E200608659 /* Profile.swift */,
+				6CBCBB21262B381800608659 /* ProfileViewModel.swift */,
+				6C07FD9025F7192A00762688 /* SearchView.swift */,
+				6CD09A7F26001F23003464E1 /* Listing.swift */,
+				6CE0408126322EE8002C4EE3 /* JobListingViewModel.swift */,
+				6CD09A7B25FECACC003464E1 /* JobListView.swift */,
+				6CE0408426346A38002C4EE3 /* ListingView.swift */,
+				6CE0408C264235E7002C4EE3 /* ListingViewModel.swift */,
+				6CD09A822600213D003464E1 /* SearchViewModel.swift */,
+				6C07FD8025F7178700762688 /* Assets.xcassets */,
+				6C07FD8525F7178700762688 /* Info.plist */,
+				6C07FDA025F71BB500762688 /* GoogleService-Info.plist */,
+				6C07FD8225F7178700762688 /* Preview Content */,
+			);
+			path = NewJackTrade;
+			sourceTree = "<group>";
+		};
+		6C07FD8225F7178700762688 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C07FD8325F7178700762688 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C07FD7825F7178500762688 /* NewJackTrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C07FD8825F7178700762688 /* Build configuration list for PBXNativeTarget "NewJackTrade" */;
+			buildPhases = (
+				6C07FD7525F7178500762688 /* Sources */,
+				6C07FD7625F7178500762688 /* Frameworks */,
+				6C07FD7725F7178500762688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewJackTrade;
+			packageProductDependencies = (
+				6C07FDA425F71CD200762688 /* FirebaseAnalytics */,
+				6C07FDA625F71CD200762688 /* FirebaseAuth */,
+				6C07FDA825F71CD200762688 /* FirebaseFirestore */,
+				6C07FDAA25F71CD200762688 /* FirebaseDatabase */,
+			);
+			productName = NewJackTrade;
+			productReference = 6C07FD7925F7178500762688 /* NewJackTrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C07FD7125F7178500762688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6C07FD7825F7178500762688 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 6C07FD7425F7178500762688 /* Build configuration list for PBXProject "NewJackTrade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C07FD7025F7178500762688;
+			packageReferences = (
+				6C07FDA325F71CD200762688 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 6C07FD7A25F7178500762688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C07FD7825F7178500762688 /* NewJackTrade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C07FD7725F7178500762688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C07FD8425F7178700762688 /* Preview Assets.xcassets in Resources */,
+				6C07FD8125F7178700762688 /* Assets.xcassets in Resources */,
+				6C07FDA125F71BB500762688 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C07FD7525F7178500762688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C07FD9425F7192A00762688 /* ProfileView.swift in Sources */,
+				6CD09A7C25FECACC003464E1 /* JobListView.swift in Sources */,
+				6CE0408D264235E7002C4EE3 /* ListingViewModel.swift in Sources */,
+				6CD09A8026001F23003464E1 /* Listing.swift in Sources */,
+				6CE0408526346A38002C4EE3 /* ListingView.swift in Sources */,
+				6C07FD9625F7192A00762688 /* DashboardView.swift in Sources */,
+				6C07FD9825F7192A00762688 /* MessagesView.swift in Sources */,
+				6C07FD9525F7192A00762688 /* SearchView.swift in Sources */,
+				6CBCBB22262B381800608659 /* ProfileViewModel.swift in Sources */,
+				6CD09A832600213D003464E1 /* SearchViewModel.swift in Sources */,
+				6CE0408226322EE8002C4EE3 /* JobListingViewModel.swift in Sources */,
+				BD2AA0F12600575600E8387E /* MapView.swift in Sources */,
+				6CBCBB1F262B37E200608659 /* Profile.swift in Sources */,
+				6C07FD9725F7192A00762688 /* LoginView.swift in Sources */,
+				6C07FD7D25F7178500762688 /* NewJackTradeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C07FD8625F7178700762688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C07FD8725F7178700762688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C07FD8925F7178700762688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewJackTrade/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U8YAR9UN4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewJackTrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileProject.NewJackTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C07FD8A25F7178700762688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NewJackTrade/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U8YAR9UN4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NewJackTrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileProject.NewJackTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C07FD7425F7178500762688 /* Build configuration list for PBXProject "NewJackTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C07FD8625F7178700762688 /* Debug */,
+				6C07FD8725F7178700762688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C07FD8825F7178700762688 /* Build configuration list for PBXNativeTarget "NewJackTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C07FD8925F7178700762688 /* Debug */,
+				6C07FD8A25F7178700762688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C07FDA325F71CD200762688 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C07FDA425F71CD200762688 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C07FDA325F71CD200762688 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		6C07FDA625F71CD200762688 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C07FDA325F71CD200762688 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6C07FDA825F71CD200762688 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C07FDA325F71CD200762688 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6C07FDAA25F71CD200762688 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C07FDA325F71CD200762688 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6C07FD7125F7178500762688 /* Project object */;
+}
